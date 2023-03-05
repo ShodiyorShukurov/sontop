@@ -5,7 +5,7 @@ const elFormBtn = elForm.querySelector('.js-btn');
 const elAttempt = document.querySelector('.js-attempt');
 const elResult = document.querySelector('.js-result');
 
-let maxAttempts = 7;
+let maxAttempts = 5;
 const randomNumber = Math.floor(Math.random() * 100);
 
 // console.log(randomNumber)
