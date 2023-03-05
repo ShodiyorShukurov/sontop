@@ -8,7 +8,7 @@ const elResult = document.querySelector('.js-result');
 let maxAttempts = 7;
 const randomNumber = Math.floor(Math.random() * 100);
 
-console.log(randomNumber)
+// console.log(randomNumber)
 
 elForm.addEventListener('submit', (evt) => {
     evt.preventDefault();
